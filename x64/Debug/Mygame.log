@@ -1,0 +1,18 @@
+﻿  Game.cpp
+E:\LFFCPP\Mygame\Game.cpp(62,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\LFFCPP\Mygame\Game.cpp(62,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\LFFCPP\Mygame\Game.cpp(88,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  main.cpp
+  State.cpp
+E:\LFFCPP\Mygame\State.cpp(104,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\LFFCPP\Mygame\State.cpp(152,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\LFFCPP\Mygame\State.cpp(158,87): warning C4244: '/=': conversion from 'double' to 'int', possible loss of data
+E:\LFFCPP\Mygame\State.cpp(159,44): warning C4244: '/=': conversion from 'double' to 'int', possible loss of data
+E:\LFFCPP\Mygame\State.cpp(176,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\LFFCPP\Mygame\State.cpp(191,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\LFFCPP\Mygame\State.cpp(193,55): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  WorldMap.cpp
+  Generating Code...
+Game.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+Game.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::White" (?White@Color@sf@@2V12@B)
+E:\LFFCPP\Mygame\x64\Debug\Mygame.exe : fatal error LNK1120: 2 unresolved externals
